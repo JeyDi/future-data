@@ -17,6 +17,7 @@ logs
 *.csv
 !.devcontainer
 !.flake8
+db/*
 
 #We don't want to push the data
 *.csv
