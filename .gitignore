@@ -12,6 +12,11 @@
 .venv
 .pdm.toml
 .ruff_cache
+.python-version
+logs
+*.csv
+!.devcontainer
+!.flake8
 
 #We don't want to push the data
 *.csv
@@ -24,15 +29,6 @@
 
 #Remove also the saved models
 saved_models
-
-#Custom rules
-
-!.env
-.python-version
-logs
-*.csv
-!.devcontainer
-!.flake8
 
 ##########################################
 #### > PyCharm e JetBrains con JIRA  #####
